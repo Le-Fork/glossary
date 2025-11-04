@@ -24,7 +24,7 @@ jobs:
 
       - name: Add upstream remote
         run: |
-          git remote add upstream hhttps://github.com/cncf/glossary.git
+          git remote add upstream https://github.com/cncf/glossary.git
 
       - name: Fetch & merge upstream
         run: |
